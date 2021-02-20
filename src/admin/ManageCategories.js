@@ -37,19 +37,19 @@ const ManageCategories = () => {
   
     return (
       <Base title="Welcome admin" description="Manage products here" className="text-left">
-        <h2 className="text-white mb-4">All Categories:</h2>
+        <h2 className="text-dark mb-4">All Categories:</h2>
         <Link className="btn btn-info" to={`/admin/dashboard`}>
           <span className="">Admin Home</span>
         </Link>
-        <div className="row">
+        <div className="row mb-4">
           <div className="col-12">
-            <h2 className="text-center text-white my-3">Total {categories.length} categories</h2>
+            <h2 className="text-center text-dark my-3">Total {categories.length} categories</h2>
   
             {categories.map((category, index) => {
               return (
                 <div key={index} className="row text-center mb-2 ">
                   <div className="col-4">
-                    <h3 className="text-white text-left">{category.name}</h3>
+                    <h3 className="text-dark text-left">{category.name}</h3>
                   </div>
                   <div className="col-4">
                     <Link
