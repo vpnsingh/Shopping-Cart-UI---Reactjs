@@ -5,8 +5,52 @@
 }
 
 body {
-  background: #343a40;
+  background: #CAD5E2;
 }
+
+.navbar-color{
+  background-color: #02B290;
+}
+
+.footer-color{
+  background-color: #02B290;
+}
+
+.bg-custom{
+  background-color: #CAD5E2;
+  color: #000000;
+}
+
+.bg-main{
+  background-color: #02B290;
+}
+
+.bg-second{
+  background-color: #E6425E;
+}
+
+.color-second{
+  color: #E6425E;
+}
+
+.btn-main{
+  color: #fff;
+  background-color: #02B290;
+  border-color: #02B290;
+}
+.btn-second{
+  color: #fff;
+  background-color: #E6425E;
+  border-color: #E6425E;
+}
+.border-second{
+  border-color: #E6425E !important;
+}
+
+.border-main{
+  border-color: #02B290 !important;
+}
+
 
 /* footer{
   position: absolute;

@@ -79,25 +79,24 @@ const Signup = () => {
                 <div className="col-md-6 offset-sm-3">
                     <form>
                         <div className="form-group">
-                            <label className="text-white">Name</label>
+                            <label>Name</label>
                             <input className="form-control" type="text" 
                                 onChange={handleChange("name")} value={name} 
                             />
                         </div>
                         <div className="form-group">
-                            <label className="text-white">Email</label>
+                            <label>Email</label>
                             <input className="form-control" type="text" 
                                 onChange={handleChange("email")} value={email}
                             />
                         </div>
                         <div className="form-group">
-                            <label className="text-white">Password</label>
+                            <label>Password</label>
                             <input className="form-control" type="password" 
                                 onChange={handleChange("password")} value={password}
                             />
                         </div>
                         <button onClick={onSubmit} className="btn btn-success btn-block">Submit</button>
-                        {/* <p className="text-white">{JSON.stringify(values)}</p> */}
                     </form>
                 </div>
             </div>
